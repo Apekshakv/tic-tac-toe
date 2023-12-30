@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+   .game{
+    display: flex;
+    background-color: aqua;
+justify-content: center;
+font-family: 'Baloo Bhaina 2', cursive;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+.box{
+    border:2px solid black;
+font-size: 10vw;
+background-color:beige ;
+color: red;
+gap: 1.5cm;
+}
+.box:hover{
+    background-color: blueviolet;
+
+}
+h2{ font:large;
+    background-color:aqua;
+    text-align: center;
+    font-family: cursive;
+}
+img{
+    size:10cm;
+}
+body{
+    background-color: aqua;
+    background-size: cover;
+}
+p{
+    font-size: larger;
+    text-align:center;
+   background-color: aqua;
+    font-family: cursive;}
