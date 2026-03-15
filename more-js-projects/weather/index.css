@@ -1,0 +1,61 @@
+/* Reset default margin */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#74ebd5,#9face6);
+}
+
+.weather{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    width:320px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.weather h1{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.input{
+    width:80%;
+    padding:8px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    margin-bottom:10px;
+}
+
+.btn{
+    padding:8px 16px;
+    border:none;
+    background:#4a7dff;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+    margin-bottom:15px;
+}
+
+.btn:hover{
+    background:#355edc;
+}
+
+.output{
+    font-size:18px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.hj img{
+    width:80px;
+}
